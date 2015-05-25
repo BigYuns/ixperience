@@ -87,9 +87,6 @@ while j<9
 				end
 			end
 
-				
-
-
 		end
 	end
 end 

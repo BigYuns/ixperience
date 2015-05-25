@@ -13,11 +13,14 @@ def piglatinify(string)
 				array=array.join.tr(string[1],string[1].upcase).split(//)
 			end
 
+			if 
+
 			
 			if array[0]=="a" ||array[0]=="e" ||array[0]=="i" ||array[0]=="o"||array[0]=="u"
 				array<<"way"
 				return puts array.join
 			end
+
 		first_letter=placehold
 		array.delete(array[0])
 		array<<first_letter+"ay"

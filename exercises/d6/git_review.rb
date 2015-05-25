@@ -17,10 +17,28 @@ THe committed files: any changes made with the files are saved in local git resp
 
 
 
-4. What's the shortcut for adding all files and commiting?
+4. What is  the shortcut for adding all files and commiting?
+Just comebine the commands
+git add -A && git commit -m "comment" 
 
 5. How do you unstage a staged file? How do you go back to an old version of a committed file?
+	1) unstage a staged file <-> git reset HEAD <file> 
+	  git commit --amend  <->This command takes your staging area and uses it for the commit. 
+	  example: 
+	  $ git commit -m 'initial commit'
+	  $ git add forgotten_file
+      $ git commit --amend
+
+
+	2) git checkout or git merge  *** need to ask 
+
 6. Why are commit messages very important?
+
 -When there is more than a person workin gon a project, collaborators know changes in code via commit messages. 
 7. How do I revert to a previous commit?
+	git checkout
+	git reset --soft HEAD~1
+
+
 8. How do you exit out of vi? (Also called vim.)
+	=q 
