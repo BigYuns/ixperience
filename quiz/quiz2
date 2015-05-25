@@ -1,0 +1,27 @@
+Q1. 
+"Zoo Lander"
+
+Q2
+8
+
+Q3
+def silly_check(argument)
+	if argument<5
+		puts "The number is less than 5"
+	else 
+		puts "The number is greater than or equal to 5"
+
+	end 
+end
+
+
+Q4.  
+def funity(array_argument)
+	array_argument<<"fun"
+
+end 
+
+Q5. 
+def more_fun(array_argument)
+	array_argument.tr(array[0], "FUN FUN")
+end 
