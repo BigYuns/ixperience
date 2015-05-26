@@ -1,0 +1,9 @@
+<h1>Who are in iXperience Session 1? </h1>
+<% @students.each do |student|%>
+		<p><%= student %></p>
+<% end %>
+
+<%= link_to 'HomePage', controller: 'names' %>
+
+<%= link_to 'HomePage', '/names/index' %>
+
