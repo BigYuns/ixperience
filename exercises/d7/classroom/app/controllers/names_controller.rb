@@ -7,5 +7,6 @@ class NamesController < ApplicationController
 
   	@students=["Yunny", "Alexis", "Pavi", "Aaron", "Oscar", "Gloryah", "Tyler", "Kaan", "Mariella", "Emily", "Zack", "Yinging", "Seth", "Matthew", "Molly","Kate", "Daniel", "Susana", "Austin", "Charlotte", "Jack", "Erica", "Aryaman", "Kevin", "Stanley","Dilys", "Olivia", "Ian", "Enrique", "Blake", "Alex", "Asad", "Bailey","Darren", "Steffi", "Sihan", "Urvish", "Ben", "Adam", "Brian"]
   end
+  
 
 end
